@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="lab08styles.css">
+        <style>
+            .row1, .row2 {display: flex;}
+            .row1 div, .row2 div {flex: 1; padding: 20px; background-color: antiquewhite; margin: 10px; border-radius: 10px;}
+        </style>
+    </head>
+        <body>
+            <nav>
+                <a href="index.html">Home</a> | <a href="skills.html">Skills</a> | <a href="contact.html">Contact</a>
+            </nav>
+            <h1>Contact</h1>
+
+            <div class="row1">
+                <div><p>Dean Lourenco<br>
+                    Watson Hall<br>
+                    405 University Place<br>
+                    Syracuse, NY</p>
+                </div>
+                <div>
+                    <h2>LinkedIn</h2>
+                    <a href="https://www.linkedin.com/in/dean-lourenco" target="_blank">LinkedIn</a><br>
+                    <a href="https://www.linkedin.com/in/dean-lourenco" target="_blank"><img src="../images/logo-sized.png" alt="LinkedIn Logo"></a>
+                <h2>Email</h2>
+                    <a href="mailto:dmlouren@syr.edu">Dean Lourenco Email</a><br>
+                </div>
+            </div>
+            <div class="row2">
+                <div>
+                    <form action="https://formspree.io/f/xwkglzyy" method="post">
+                        <label for="fullname">Full Name:</label><br>
+                        <input type="text" id="fullname" name="full name"><br>
+                        <label>Business & Inquiries</label><br>
+                        <textarea id="business" name="business" rows="3" cols="60"></textarea><br>
+                        <p>Select Preferred Contact Method:</p>
+                        <input type="radio" id="email" name="contact" value="email">
+                        <label for="email">Email</label>
+                        <input type="radio" id="phone" name="contact" value="phone">
+                        <label for="phone">Phone</label><br>
+                        <input type="submit" value="Send Form">
+                    </form>        
+                </div>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.087022760155!2d-76.13361342392199!3d43.03960049190028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f375491972e3%3A0xa6a83325164896cb!2sWatson%20Hall!5e0!3m2!1sen!2sus!4v1706805225794!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+                
+                
+        </body>
+</html>
