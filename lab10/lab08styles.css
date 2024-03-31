@@ -6,11 +6,15 @@ h1 {color: #A24936;}
 nav {background-color:#F2A65A; 
     border: 5px;
     padding: 10px; 
-    margin-bottom: 30px;}
+    margin-bottom: 30px;
+}
 
 nav a {color: #772F1A;}
 
 nav a:hover {background-color: #EEC170;}
 
+
+@media only screen and (max-width:600px) {nav a {max-width: 100%;}
+.span {display:none}}
 
 
