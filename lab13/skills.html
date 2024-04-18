@@ -7,13 +7,14 @@
             th, td {border: 1px solid black}
             .head {text-align: center;}
             .tech {display: flex; justify-content:space-around;}
-            aside {background-color:#F2A65A; border-radius: 10px; padding: 15px;}
+            aside {background-color:#494949; border-radius: 10px; padding: 15px;}
             .flexy {display: flex;}
             .left {flex: 3;}
             .right {flex: 1;}
             .marge {margin: 25px;}
             .top {padding: 25px;}
             .skip {background-color: chocolate;border: 2px solid #000000;text-decoration: none; position: absolute; padding: 8px; top: 10px; left: -999px;}
+            .skip:focus {left:10px;}
         </style>
         <title>Skills</title>
         <link rel="stylesheet" href="lab08styles.css">
@@ -32,7 +33,7 @@
             <h1 class="head">Technical Skills</h1>
         </header>
         <section>
-            <p class="top">I'm a Graphic Designer who is well versed in the Adobe Creative Suite. I am also able to create 3D models for digital art.</p>
+            <p class="top" id="skip">I'm a Graphic Designer who is well versed in the Adobe Creative Suite. I am also able to create 3D models for digital art.</p>
         </section>
 
         <article>
