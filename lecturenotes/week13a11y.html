@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A11y</title>
+    <style>
+        .skip {background-color: chocolate;border: 2px solid #000000;text-decoration: none; position: absolute; padding: 8px; top: 10px; left: -999px;
+    } /*Positions relative to top at bottom of viewport*/
+    /*-999 pushes button off screen*/
+    .skip:focus {left:10px;}
+    /*when the button is tabbed to*/
+    </style>
+</head>
+<body>
+    <nav>
+        <!-- don't forget bookmark linkskip to content-->
+        <a href="#skip" class="skip" tabindex="1">Skip to Content</a><br>
+            <!--Tab index is for complex webpages-->
+        <a href="https://www.coolmathgames.com/" tabindex="4">Cool Math Games</a> <br>
+        <a href="https://www.miniclip.com/" tabindex="3">MiniClip</a> <br>
+        <a href="https://balls.com/" tabindex="2">Balls.com</a> <br>
+    </nav>
+    <h1>All the A11y techniques</h1>
+    <p id="skip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sint blanditiis? Exercitationem beatae fugiat mollitia atque illum ab temporibus, eum aut obcaecati amet, fuga adipisci architecto autem. Rerum, soluta aperiam!</p>
+</body>
+</html>
