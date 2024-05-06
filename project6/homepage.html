@@ -24,8 +24,9 @@
         .water, .air, .explo {flex: 2;}
         section {font-size: 1.5em; margin: 30px;}
         footer {display: flex; justify-content: space-around;background-color: darkslategray;padding: 40px;}
-        .skip {background-color: chocolate;border: 2px solid #000000;text-decoration: none; position: absolute; padding: 8px; top: 10px; left: -999px;
-    }
+        .skip {background-color: chocolate;border: 2px solid #000000;text-decoration: none; position: absolute; padding: 8px; top: 10px; left: -999px;}
+        .skip:focus {left:10px;}
+    
         
         @media only screen and (max-width:800px) {
                 
@@ -35,7 +36,7 @@
 </head>
 <body>
     <nav>
-        <a href="#skip" class="skip" tabindex="1">Skip to Content</a><br>
+        <a href="#skip" class="skip" tabindex=1>Skip to Content</a><br>
         <div class="left">
             <h1 class="title">What The Frack</h1>
         </div>
