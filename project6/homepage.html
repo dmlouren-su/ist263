@@ -17,7 +17,7 @@
         .title {font-size: 2em; color: #faebd7;}
 
         header, article {text-align: center; font-size: 1.5em; padding: 10px;}
-        .top, .mid {display: flex; justify-content: space-around;margin: 20px;}
+        .top, .mid {display: flex; justify-content: space-around;margin: 20px; flex-wrap: wrap}
         .para {font-size: 1.5em;padding: 40px; background-color: darkslategray; border: 15px; border-radius: 25px; color: #FFFFFF; margin: auto; margin-right: 20px;}
         .listing {font-size: 1.5em;padding: 40px; background-color: darkslategray; border: 15px; border-radius: 25px; color: #FFFFFF; margin: auto; margin-left: 40px;}
         .rows {display: flex; flex-wrap: wrap;padding: 40px; background-color: darkslategray; border: 15px; border-radius: 25px; color: #FFFFFF; margin: auto;}
@@ -56,13 +56,21 @@
     </header>
     <main>
     <div class="top">
-        <div id="skip" class="para">Fracking, the process of cracking fissures deep underground to extract oil, has had an overwhelming presence on American soil, especially in Colorado. Fracking is so commonplace in Colorado that most neighborhoods have a drilling site just on the outskirts of their homes. </div>
+        <div id="skip" class="para">
+            <p>Fracking, the process of cracking fissures deep underground to extract oil, has had an overwhelming presence on American soil, especially in Colorado. Fracking is so commonplace in Colorado that most neighborhoods have a drilling site just on the outskirts of their homes. </p>
+
+        </div>
         <div><img src="overview.jpg" alt="overview" width=500 height=auto> </div>
     </div>
 
     <div class="mid">
-        <div><img src="Fracking_Map.jpg" alt="map of fracking" width=500 height=auto></div>
-        <div class="listing">Ever since the early 2000s, oil & gas companies have continued their greed in the state of Colorado. Here is a map detailing the presence of fracking sites in Colorado:</div>
+        <div>
+            <img src="Fracking_Map.jpg" alt="map of fracking" width=500 height=auto>
+        </div>
+        <div class="listing">
+            <p>Ever since the early 2000s, oil & gas companies have continued their greed in the state of Colorado. Here is a map detailing the presence of fracking sites in Colorado:
+                </p>
+            </div>
     </div>
     <article>
         <h1>Now <em>why</em> is this a problem?</h1>
