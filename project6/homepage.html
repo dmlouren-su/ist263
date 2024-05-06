@@ -24,6 +24,8 @@
         .water, .air, .explo {flex: 2;}
         section {font-size: 1.5em; margin: 30px;}
         footer {display: flex; justify-content: space-around;background-color: darkslategray;padding: 40px;}
+        .skip {background-color: chocolate;border: 2px solid #000000;text-decoration: none; position: absolute; padding: 8px; top: 10px; left: -999px;
+    }
         
         @media only screen and (max-width:800px) {
                 
@@ -33,6 +35,7 @@
 </head>
 <body>
     <nav>
+        <a href="#skip" class="skip" tabindex="1">Skip to Content</a><br>
         <div class="left">
             <h1 class="title">What The Frack</h1>
         </div>
@@ -48,7 +51,7 @@
     </header>
     <main>
     <div class="top">
-        <div class="para">Fracking, the process of cracking fissures deep underground to extract oil, has had an overwhelming presence on American soil, especially in Colorado. Fracking is so commonplace in Colorado that most neighborhoods have a drilling site just on the outskirts of their homes. </div>
+        <div id="skip" class="para">Fracking, the process of cracking fissures deep underground to extract oil, has had an overwhelming presence on American soil, especially in Colorado. Fracking is so commonplace in Colorado that most neighborhoods have a drilling site just on the outskirts of their homes. </div>
         <div><img src="overview.jpg" alt="overview" width=500 height=auto> </div>
     </div>
 
